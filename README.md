@@ -41,8 +41,14 @@ Training time: Approximately 9 hours and 17 minutes
 # Results
 The model achieved a mean distance of 6.421 during evaluation, demonstrating its effectiveness in optimizing vehicle routes. The training process, despite its computational intensity, shows a significant improvement in travel distance reduction compared to traditional methods. 
 Above, Figure shows the fluctuation of the average distance traveled by vehicles during different evaluation steps of the training process. Initially, there are significant fluctuations, indicating the model's exploration phase. As training progresses, the average distance stabilizes somewhat, reflecting the model's convergence toward an optimal policy. Despite some variability, the overall trend shows a reduction in average distance, highlighting the effectiveness of the Actor-Critic model in optimizing vehicle routes. The final evaluation reveals a mean distance of 6.421, demonstrating the model's success in minimizing travel distances within the CVRP framework.
+![avg](https://github.com/melikecolak/Actor-critic-algorithm-for-CVRP/assets/73293751/42d2af19-b3cf-40d0-b690-c9a2a6bd0c44)
 
-![avg](https://github.com/melikecolak/Actor-critic-algorithm-for-CVRP/assets/73293751/45a03f70-8be2-4c61-a70d-71a59440a59f)
+Here, Routes Visualization was shown.
+![routes](https://github.com/melikecolak/Actor-critic-algorithm-for-CVRP/assets/73293751/d99323b4-4564-42e0-b6f9-94009c1017f3)
+
+Route 1 (Blue): Connects points in the order [0, 3, 5, 9, 6, 7, 0]. This route forms a loop starting and ending at the depot (point 0), with distances between consecutive points annotated on the lines.
+Route 2 (Orange): Connects points in the order [0, 1, 10, 8, 2, 0]. Similarly, it forms a loop starting and ending at the depot, with distances annotated.
+Route 3 (Green): Connects points in the order [0, 4, 0]. This is a shorter route visiting just one additional point and returning to the depot.
 
 # Future Work
 Minimize model architecture and reduce training time.
