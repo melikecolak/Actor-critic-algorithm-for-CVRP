@@ -8,7 +8,7 @@ The project is organized into the following directories:
   .ipynb_checkpoints: Jupyter Notebook checkpoints for version control.
   pytorch_models: Contains the PyTorch models used in the project.
   results: Directory for storing the results of the experiments.
-  ReinforceAttempt_V1.ipynb: Main Jupyter Notebook containing the implementation and training process.
+  Actor_Critic_CVRP.ipynb: Main Jupyter Notebook containing the implementation and training process.
 
 # Methodology
 
